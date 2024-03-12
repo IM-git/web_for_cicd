@@ -23,5 +23,5 @@ def contact(request):
     return HttpResponse("<h1>Contacts</h1>")
 
 
-def user(request, name="Undefined", age=666):
+def user(request, name="Undefined", age=0):
     return HttpResponse(f"<h2>Name: {name}, Age: {age}</h2>")
